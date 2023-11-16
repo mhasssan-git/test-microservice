@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code Fest\\ASP.NET Microservices\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {}
+  },
+  "projects": {
+    "D:\\Code Fest\\ASP.NET Microservices\\Play.Common\\src\\Play.Common\\Play.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code Fest\\ASP.NET Microservices\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "projectName": "Play.Common",
+        "projectPath": "D:\\Code Fest\\ASP.NET Microservices\\Play.Common\\src\\Play.Common\\Play.Common.csproj",
+        "packagesPath": "C:\\Users\\mhlal\\.nuget\\packages\\",
+        "outputPath": "D:\\Code Fest\\ASP.NET Microservices\\Play.Common\\src\\Play.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mhlal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Code Fest\\ASP.NET Microservices\\packages": {},
+          "D:\\Code Fest\\E-Commerce\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.binder": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "MongoDB.driver": {
+              "target": "Package",
+              "version": "[2.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
